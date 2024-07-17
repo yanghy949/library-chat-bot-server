@@ -1,4 +1,4 @@
 knowledge
 .idea
-.gitignore
+*/.gitignore
 _pycache_
