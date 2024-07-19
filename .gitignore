@@ -2,3 +2,4 @@ knowledge
 .idea
 */.gitignore
 _pycache_
+*/.git
