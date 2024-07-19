@@ -106,7 +106,7 @@ async def create_upload_file(file: UploadFile = None):
 
 
 if __name__ == '__main__':
-    tokenizer = AutoTokenizer.from_pretrained(model_path, trust_remote_code=True)
+    #tokenizer = AutoTokenizer.from_pretrained(model_path, trust_remote_code=True)
     #    model = AutoModel.from_pretrained("/model_path", trust_remote_code=True).half().quantize(4).cuda()
     model = AutoModel.from_pretrained(model_path, trust_remote_code=True).half().cuda()
     model.eval()
